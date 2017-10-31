@@ -3,6 +3,9 @@
  * Just a quick and dirty eval.  No checks for infinite loops, etc.
  */
 
+ 
+ 
+ 
 function runJS() {
 	var code = Blockly.Generator.workspaceToCode('JavaScript');
 	try {
@@ -10,6 +13,9 @@ function runJS() {
 	} catch (e) {
 		alert('Program error:\n' + e);
 	}
+    
+    
+    // 서희륜 여기 수정 !!
 }
 
 /**
