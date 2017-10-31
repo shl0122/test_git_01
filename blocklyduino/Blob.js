@@ -14,6 +14,13 @@ plusplus: true */
 
 /*! @source http://purl.eligrey.com/github/Blob.js/blob/master/Blob.js */
 
+/* HTS 수정 */
+/* HTS 수정 */
+/* HTS 수정 */
+/* HTS 수정 */
+/* HTS 수정 */
+
+
 if (typeof Blob !== "function")
 	var Blob = (function (view) {
 		"use strict";
