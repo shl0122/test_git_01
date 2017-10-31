@@ -3,6 +3,7 @@
  * Just a quick and dirty eval.  No checks for infinite loops, etc.
  */
 
+ // 황태상 : 오늘 여기 수정.
  
 function runJS() {
 	var code = Blockly.Generator.workspaceToCode('JavaScript');
