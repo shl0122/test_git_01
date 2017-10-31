@@ -4,7 +4,7 @@
  */
 
  
- 
+// 황태상 : 오늘 여기서 작업함 
  
 function runJS() {
 	var code = Blockly.Generator.workspaceToCode('JavaScript');
