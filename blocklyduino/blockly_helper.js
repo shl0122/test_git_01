@@ -3,14 +3,14 @@
  * Just a quick and dirty eval.  No checks for infinite loops, etc.
  */
 
-// function runJS() {
-	// var code = Blockly.Generator.workspaceToCode('JavaScript');
-	// try {
-		// eval(code);
-	// } catch (e) {
-		// alert('Program error:\n' + e);
-	// }
-// }
+function runJS() {
+	var code = Blockly.Generator.workspaceToCode('JavaScript');
+	try {
+		eval(code);
+	} catch (e) {
+		alert('Program error:\n' + e);
+	}
+}
 
 /**
  * Backup code blocks to localStorage.
