@@ -10,9 +10,6 @@ function runJS() {
 	} catch (e) {
 		alert('Program error:\n' + e);
 	}
-    
-    
-    // 황태상 여기 수정 !!
 }
 
 /**
